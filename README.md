@@ -1,31 +1,20 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battleships
+    Developer Katarina Wikström
 
-Welcome USER_NAME,
+This Battleships is a Python terminal game, that runs on Heroku in a mock terminal provided by Code Institute.
+The user tries to find the battleships in 15 turns. Each ship occupies one square on the board.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## How to play
+Battleships is based on the classic pen-and-paper game. 
+In this version the computer creates a hidden board with five ships and one empty board the player sees. The user then tries to find the ships by guessing a row and a column. Guesses are marked on the board by - . Hits are marked with an X. The game is over when the user has made 15 guesses or found all the ships before the countdown.
 
-## Reminders
+## Features
+* Random board generation
+    * Ships are randomly placed on a hidden board which the user can not see. 
+* User input
+* 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+### Future features
+* The player can choose the size of the board
+* The computer is part of the game and guesses the ship locations of the player
+* The player can choose the ship locations 
