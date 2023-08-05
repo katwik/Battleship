@@ -1,7 +1,15 @@
 # Battleships
+[Live version of my project](https://battleships-5b85f58c6b82.herokuapp.com/)
+
+<img src="assets/images/responsive.png">
 
 This Battleships is a Python terminal game, that runs on Heroku in a mock terminal provided by Code Institute.
 The user tries to find the battleships in 15 turns. Each ship occupies one square on the board.
+
+## User stories
+As a user I want
+* to play an easy game with easy navigation
+* to see how many turns there are left
 
 ## How to play
 Battleships is based on the classic pen-and-paper game. 
@@ -36,6 +44,19 @@ I manually tested this game by doing the following:
 
 <img src="assets/images/accessibility.png">
 
+## Tools
+* [GitHub](https://github.com/) - used for hosting the source code of the program
+* [Heroku](https://heroku.com/) - used for deploying the project
+* [CI Python Linter](https://pep8ci.herokuapp.com/#) - used for validating Python code
+* Lighthouse - used for testing performance and accessibility
+
+## Bugs 
+When I run the code through CI Python Linter I got an error indicating line 6 was too long. I fixed that by dividing the code tn several lines.
+
+<img src="assets/images/error.png">
+<img src="assets/images/errorfix.png">
+
+
 ## Deployment
 * Create an account and login into Heroku website
 * Click "New -> Create new app" button
@@ -52,5 +73,5 @@ I manually tested this game by doing the following:
 * When the deploying is finished, a link will be provided to you for accessing your app
 
 ## Credits
-* w3 schools was used as references to check syntax for coding and for general queries
-* Knowledge Mavens youtube tutorial
+* [w3 schools](https://www.w3schools.com/) was used as references to check syntax for coding and for general queries
+* [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ) youtube tutorial
