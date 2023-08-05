@@ -14,6 +14,8 @@ In this version the computer creates a hidden board with five ships and one empt
 * You cannot guess the same location twice
 * Turn counts
 
+<img src="assets/images/welcome.png"
+
 ### Future features
 * The player can choose the size of the board
 * The computer is part of the game and guesses the ship locations of the player
